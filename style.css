@@ -25,19 +25,20 @@ body{
     background-color: #010101;
     animation: entr 3.0s cubic-bezier(0.47, 0, 0.745, 0.715), both;
     opacity: 0;
-    
-    border: 1px solid red;
+    display: none;
 }
 
 @keyframes entr{
     0% {
         opacity: 1;
+        display: block;
     }
     85% {
         opacity: 1;
     }
     100% {
         opacity: 0;
+        display: none;
     }
 }
 
