@@ -25,10 +25,13 @@ body{
     background-color: #010101;
     animation: entr 3.0s cubic-bezier(0.47, 0, 0.745, 0.715), both;
     opacity: 0;
+    top: -300%;
+    border: 1px solid red;
 }
 
 @keyframes entr{
     0% {
+        top: 0;
         opacity: 1;
     }
     85% {
@@ -36,7 +39,7 @@ body{
     }
     100% {
         opacity: 0;
-        display: none;
+        top:-300%;
     }
 }
 
