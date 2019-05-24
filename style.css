@@ -219,6 +219,7 @@ body{
 
 .projects
 {
+    z-index: -2;
     scroll-snap-type: mandatory;
     margin-left: auto;
     margin-right: auto;
@@ -228,7 +229,6 @@ body{
     height: 25%;
     color: #00faff;
     text-align: center;
-    z-index: -2;
 }
 
 .our
@@ -246,7 +246,6 @@ body{
 
 .project
 {
-    z-index: 5;
     width: 40%;
     height: 20%;
     margin-left: 5%;
@@ -256,11 +255,6 @@ body{
     color: #00faff;
     text-align: center;
     
-}
-.project:hover
-{
-    transform: scale(1.2);
-    color: #f601ff;
 }
 
 .project_image
