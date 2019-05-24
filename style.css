@@ -47,6 +47,7 @@ body{
 .welcome{
     
     
+    animation-fill-mode: forwards;
     overflow: hidden;
     margin-top: 10%;
     margin-left: auto;
