@@ -39,9 +39,8 @@ body{
         opacity: 1;
     }
     100% {
-        opacity: 1;
-        filter: blur(5px);
-        
+        opacity: 0;
+
         display: none;
     }
 }
