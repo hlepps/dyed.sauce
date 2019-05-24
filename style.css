@@ -25,6 +25,7 @@ body{
     background-color: #010101;
     animation: entr 3.0s cubic-bezier(0.47, 0, 0.745, 0.715), both;
     opacity: 0;
+    display: initial;
     z-index: 10;
 }
 
