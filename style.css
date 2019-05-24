@@ -176,13 +176,13 @@ body{
 
 .sauce
 {
-    z-index: 2;
+    z-index: 0;
     position: relative;
     margin-left: 75%;
     margin-right: auto;
     margin-top: -30%;
     transform: scale(1.5);
-    filter: blur(1);
+    filter: blur(1px);
 }
 
 .lowertext
