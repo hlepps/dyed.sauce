@@ -37,9 +37,12 @@ body{
     85% {
         opacity: 1;
     }
+    90% {
+        top: 0;
+    }
     100% {
         opacity: 0;
-        top:-300%;
+        top: -300%;
     }
 }
 
