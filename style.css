@@ -176,7 +176,7 @@ body{
 
 .sauce
 {
-    z-index: 0;
+    z-index: -2;
     position: relative;
     margin-left: 75%;
     margin-right: auto;
