@@ -25,24 +25,19 @@ body{
     background-color: #010101;
     animation: entr 3.0s cubic-bezier(0.47, 0, 0.745, 0.715), both;
     opacity: 0;
-    top: -300%;
+    
     border: 1px solid red;
 }
 
 @keyframes entr{
     0% {
-        top: 0;
         opacity: 1;
     }
     85% {
         opacity: 1;
     }
-    90% {
-        top: 0;
-    }
     100% {
         opacity: 0;
-        top: -300%;
     }
 }
 
@@ -233,7 +228,7 @@ body{
     height: 25%;
     color: #00faff;
     text-align: center;
-    z-index: -1;
+    z-index: -2;
 }
 
 .our
@@ -251,7 +246,7 @@ body{
 
 .project
 {
-    
+    z-index: -2;
     width: 40%;
     height: 20%;
     margin-left: 5%;
