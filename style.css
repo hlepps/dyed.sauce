@@ -134,7 +134,7 @@ body{
     color: #00faff;
     text-align: center;
     float: top;
-    z-index: -1;
+    z-index: -2;
     
 }
 
@@ -241,6 +241,7 @@ body{
     margin-right: auto;
     text-align: center;
     float: top;
+    z-index: -2;
 }
 
 
@@ -255,7 +256,7 @@ body{
     float: left;
     color: #00faff;
     text-align: center;
-    
+    z-index: -2;
 }
 
 .project_image
@@ -264,6 +265,7 @@ body{
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    z-index: -2;
 }
 .project_image:hover
 {
