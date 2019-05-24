@@ -54,9 +54,7 @@ body{
     margin-right: auto;
     width: 200px;
     height: 200px;
-    
     animation: puff-in-center 3.0s cubic-bezier(0.47, 0, 0.745, 0.715), both;
-
     opacity: 0;
     
     
@@ -310,4 +308,17 @@ body{
     margin-right: auto;
     text-align: center;
     float: top;
+}
+
+
+.a
+{
+    float: top;
+    font-size: 25%;
+    color: #f601ff;
+}
+
+.a:visited
+{
+    color: #f601ff;
 }
