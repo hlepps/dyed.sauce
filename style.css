@@ -276,10 +276,12 @@ body{
     margin-left: auto;
     margin-right: auto;
     
+    
 }
 .project_image:hover
 {
-    filter: blur(1px);
+    filter: blur(-2px);
+    transform: scale(1.2);
 }
 
 .contact
@@ -293,7 +295,7 @@ body{
     height: 33%;
     color: #00faff;
     text-align: center;
-    z-index: -1;
+    
 }
 
 
@@ -306,6 +308,7 @@ body{
     margin-right: auto;
     text-align: center;
     float: top;
+    filter: blur(1px);
 }
 
 .mail
@@ -317,11 +320,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    filter: blur(1px);
 }
 
 
 .a
 {
+    filter: blur(1px);
     float: top;
     font-size: 25%;
     color: #f601ff;
@@ -330,4 +335,11 @@ body{
 .a:visited
 {
     color: #f601ff;
+}
+
+
+
+.text
+{
+    filter: blur(1px);
 }
