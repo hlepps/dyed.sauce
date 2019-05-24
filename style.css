@@ -96,7 +96,6 @@ body{
     float: right;
     color: #00faff;
     font-size: 250%;
-    filter: blur(1px);
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 0;
@@ -146,7 +145,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    filter: blur(1px);
+    
     float: top;
 }
 
@@ -154,13 +153,14 @@ body{
 {
     float: left;
     color: #00faff;
-    
+    filter: blur(1px);
 }
 
 .magenta
 {
     float: left;
     color: #f601ff;
+    filter: blur(1px);
 }
 
 .space
@@ -190,7 +190,6 @@ body{
     float: top;
     margin-right: auto;
     text-align: center;
-    filter: blur(1px);
     font-size: 50%;
 }
 
@@ -239,7 +238,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    filter: blur(1px);
     float: top;
 }
 
@@ -290,6 +288,7 @@ body{
     z-index: -1;
 }
 
+
 .us
 {
     font-size: 400%;
@@ -298,6 +297,5 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    filter: blur(1px);
     float: top;
 }
