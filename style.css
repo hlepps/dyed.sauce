@@ -26,6 +26,7 @@ body{
     animation: entr 3.0s cubic-bezier(0.47, 0, 0.745, 0.715), both;
     opacity: 0;
     display: none;
+    z-index: -10;
 }
 
 @keyframes entr{
