@@ -134,7 +134,7 @@ body{
     color: #00faff;
     text-align: center;
     float: top;
-    z-index: -2;
+    z-index: 2;
     
 }
 
@@ -175,7 +175,7 @@ body{
 
 .sauce
 {
-    z-index: -1;
+    z-index: 2;
     position: relative;
     margin-left: 75%;
     margin-right: auto;
@@ -197,7 +197,7 @@ body{
 
 .separator
 {
-    z-index: -2;
+    z-index: 2;
     width: 20%;
     height: 2.5%;
     float: top;
@@ -208,7 +208,7 @@ body{
 
 .block
 {
-    z-index: -2;
+    z-index: 2;
     float: left;
     width: 25%;
     height: 10%;
@@ -220,7 +220,7 @@ body{
 
 .projects
 {
-    z-index: -2;
+    z-index: 2;
     scroll-snap-type: mandatory;
     margin-left: auto;
     margin-right: auto;
@@ -241,7 +241,7 @@ body{
     margin-right: auto;
     text-align: center;
     float: top;
-    z-index: -2;
+    
 }
 
 
@@ -256,7 +256,7 @@ body{
     float: left;
     color: #00faff;
     text-align: center;
-    z-index: -2;
+    
 }
 
 .project_image
@@ -265,7 +265,7 @@ body{
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    z-index: -2;
+    
 }
 .project_image:hover
 {
