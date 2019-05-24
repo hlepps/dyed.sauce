@@ -323,15 +323,14 @@ body{
 }
 
 
-.a
+.link
 {
-    filter: blur(1px);
     float: top;
     font-size: 25%;
     color: #f601ff;
 }
 
-.a:visited
+.link:visited
 {
     color: #f601ff;
 }
